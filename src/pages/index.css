@@ -1,2 +1,8 @@
 @import url('../vendor/font.css');
 
+.title {
+    font-family: 'Fira Sans Extra Condensed';
+    font-weight: bold;
+    color: red;
+}
+

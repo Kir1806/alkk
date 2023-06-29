@@ -22,7 +22,7 @@
     font-family: "Museo Bold";
     src: url("https://www.technodom.kz/under/tab_showcase/fonts/MUSEOSANSCYRL.OTF");
 } */
-@font-face {
+/* @font-face {
     font-family: 'Montserrat';
     src: local('Montserrat Hairline'), local('Montserrat-Hairline'), url('./fonts/montserrathairline.woff2') format('woff2'), url('./fonts/montserrathairline.woff') format('woff'), url('./fonts/montserrathairline.ttf') format('truetype');
     font-weight: 100;
@@ -50,5 +50,56 @@
     font-family: 'Montserrat';
     src: local('Montserrat Black'), local('Montserrat-Black'), url('./fonts/montserratblack.woff2') format('woff2'), url('./fonts/montserratblack.woff') format('woff'), url('./fonts/montserratblack.ttf') format('truetype');
     font-weight: 900;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'Fira Sans Extra Condensed';    
+    src: local('Fira Sans Extra Condensed Bold'), local('FiraSansExtraCondensed-Bold'),
+        url('./fonts/FiraSansExtraCondensed-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fira Sans Extra Condensed';
+    src: local('Fira Sans Extra Condensed SemiBold'), local('FiraSansExtraCondensed-SemiBold'),        
+        url('./fonts/FiraSansExtraCondensed-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fira Sans Extra Condensed';
+    src: local('Fira Sans Extra Condensed Regular'), local('FiraSansExtraCondensed-Regular'),
+        url('./fonts/FiraSansExtraCondensed-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('./fonts/Gilroy-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('./fonts/Gilroy-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+        url('./fonts/Gilroy-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('./fonts/Gilroy-Medium.woff2') format('woff2');
+    font-weight: 500;
     font-style: normal;
 }
