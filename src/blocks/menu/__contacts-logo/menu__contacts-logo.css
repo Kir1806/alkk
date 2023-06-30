@@ -1,0 +1,7 @@
+.menu__contacts-logo {
+    width: 20px;
+    height: 20px;
+}
+.menu__contacts-logo:first-child {
+    margin-right: 3px;
+}

@@ -1,0 +1,10 @@
+@import url('./__list/menu__list.css');
+@import url('./__logo/menu__logo.css');
+@import url('./__item/menu__item.css');
+@import url('./__contacts/menu__contacts.css');
+@import url('./__contacts-phone/menu__contacts-phone.css');
+@import url('./__link/menu__link.css');
+@import url('./__contacts-logo/menu__contacts-logo.css');
+.menu {
+    display: flex;    
+}

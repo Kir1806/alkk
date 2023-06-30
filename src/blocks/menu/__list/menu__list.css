@@ -1,0 +1,8 @@
+/* @import url(''); */
+
+.menu__list {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}

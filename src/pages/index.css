@@ -1,8 +1,23 @@
 @import url('../vendor/font.css');
 
-.title {
-    font-family: 'Fira Sans Extra Condensed';
-    font-weight: bold;
-    color: red;
+@import url('../blocks/header/header.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
