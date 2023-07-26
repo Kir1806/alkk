@@ -1,0 +1,14 @@
+.table__item {
+    position: relative;
+    margin-left: 16px;
+    margin-bottom: 14px;
+}
+.table__item::before {
+    position: absolute;
+    content: '';
+    height: 12px;
+    width: 12px;
+    background-image: url('../../../images/Frame.svg');
+    left: -22px;
+    top: 3px;
+}

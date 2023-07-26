@@ -1,0 +1,11 @@
+.section-title {
+    margin: 0;
+    color: #333;
+    font-family: 'Fira Sans Extra Condensed';
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}

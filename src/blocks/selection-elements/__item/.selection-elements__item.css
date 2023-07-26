@@ -1,0 +1,11 @@
+.selection-elements__item {
+    border-radius: 5px;
+    background-color: #EAECEF;
+    color: #333;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    border: none;
+}

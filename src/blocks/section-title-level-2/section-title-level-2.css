@@ -1,0 +1,10 @@
+.section-title-level-2 {
+    color: #333;
+    font-family: 'Fira Sans Extra Condensed';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}

@@ -1,7 +1,9 @@
 @import url('../../blocks/menu/menu.css');
-@import url('../../blocksmenu-line-two/menu-line-two.css');
+@import url('../blocksmenu-line-two/menu-line-two.css');
+@import url('./__background-images/header__background-images.css');
 
 .header {
     width: 100%;
     border: 1px solid red;
+    
 }

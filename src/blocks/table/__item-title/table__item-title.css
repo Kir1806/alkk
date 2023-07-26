@@ -1,0 +1,21 @@
+.table__item-title {
+    color: #FFF;
+    font-size: 22px;
+    font-family: 'Fira Sans Extra Condensed';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 56px;
+    width: 207px;
+}
+.table__item-title::after {
+    position: absolute;
+    content: '';
+    width: 34px;
+    height: 2px;
+    background: #FF0404;
+    left: 0;
+    top: 56px;
+}

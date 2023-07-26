@@ -1,0 +1,6 @@
+@import url('./__item/.selection-elements__item.css');
+@import url('./__checkbox/.selection-elements__checkbox.css');
+
+.selection-elements {
+    display: flex;
+}

@@ -1,0 +1,11 @@
+@import url('./__items/table__items.css');
+@import url('./__item/table__item.css');
+@import url('./__item-title/table__item-title.css');
+@import url('./__item-link/table__item-link.css');
+
+.table {
+    display: flex;
+    /* width: 52%; */
+    margin-bottom: 67px;
+    /* border: 1px solid red; */
+}
