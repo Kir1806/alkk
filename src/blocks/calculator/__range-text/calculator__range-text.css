@@ -1,0 +1,9 @@
+.calculator__range-text {
+    color: #333;
+    font-family: 'Gilroy';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 15px */
+    text-transform: uppercase;
+}

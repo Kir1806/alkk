@@ -1,0 +1,9 @@
+.calculator__range-price {
+    color: #333;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 30px */
+    margin-left: auto;
+}

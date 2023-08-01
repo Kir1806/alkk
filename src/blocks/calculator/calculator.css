@@ -1,6 +1,15 @@
 @import url('./__title/calculator__title.css');
+@import url('./__range/calculator__range.css');
+@import url('./__range-text/calculator__range-text.css');
+@import url('./__range-price/calculator__range-price.css');
+@import url('./__range-units/calculator__range-units.css');
+@import url('./__range-input/calculator__range-input.css');
+@import url('./__button-calc/calculator__button-calc.css');
+
 
 .calculator {
     padding-top: 45px;
+    display: flex;
+    flex-direction: column;
 
 }

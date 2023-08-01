@@ -1,0 +1,7 @@
+
+.calculator__range {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 47px 35px 47px;
+    border: 1px solid red;
+}

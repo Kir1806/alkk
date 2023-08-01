@@ -1,0 +1,8 @@
+.selection-elements__checkbox-text {
+    color: #333;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+}

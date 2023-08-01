@@ -1,4 +1,5 @@
 .selection-elements__checkbox {
+    position: relative;
     margin-right: 0;
     margin-left: auto;
 }
