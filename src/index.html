@@ -62,9 +62,9 @@
                 <div class="selection-elements">
                     <select name="" id="" class="selection-elements__item">
                         <option select disable value="0">Регион</option>
-                        <option value="2">Регион 1</option>
-                        <option value="3">Регион 2</option>
-                        <option value="4">Регион 3</option>
+                        <option class="selop" value="2">Регион 1</option>
+                        <option class="selop"value="3">Регион 2</option>
+                        <option class="selop"value="4">Регион 3</option>
                     </select>
                     <select name="" id="" class="selection-elements__item">
                         <option select disable value="0">Поиск. сист.</option>
@@ -76,51 +76,50 @@
                         <option select disable value="1">Тематика</option>
                         <option value="2">Тематика 1</option>
                         <option value="3">Тематика 2</option>
-                        <option value="3">Тематика 3</option>
+                        <option value="4">Тематика 3</option>
                     </select>
      
                     <div class="selection-elements__checkbox">
                         <input type="checkbox" id="cb1" class="">
                         <label for="cb1" class='checkbox-label'>Сайт продвигается</label> 
-                        <!-- <input type="checkbox" class="checkbox selection-elements__checkbox-input">
-                        <span class="selection-elements__checkbox-text">
-                            Сайт продвигается
-                        </span> -->
                     </div>             
                 </div>
                 <div class="calculator__range">
                     <span class="calculator__range-text">Цена</span>
-                    <span class="calculator__range-price">150 000 <span class="calculator__range-units">руб./мес.</span></span>
-                    <input type="range" class="calculator__range-input">
+                    <span class="calculator__range-price">
+                        <output class="calculator__range-price" id="rangevalue">70000</output>
+                        <span class="calculator__range-units"> руб./мес.</span>
+                    </span>
+                    <input type="range" class="calculator__range-input" value="70000" min="0" max="100000" oninput="rangevalue.value=value">
                 </div>                
                 <button class="button calculator__button-calc">Рассчитать</button>
             </form>
-            <div class="calculator__table">
-                <h3 class="calculator__table-title">План продвижения на 3 месяца</h3>
-                <ul class="calculator__table-itmes">
-                    <li class="calculator__table-item-title">1 мес.</li>
-                    <li class="calculator__table-item">Общий аудит сайта</li>
-                    <li class="calculator__table-item">Создание резервной копии сайта</li>
-                    <li class="calculator__table-item">Поиск и устранение дублей сайта</li>
-                    <li class="calculator__table-item">Поиск и удаление битых ссылок</li>
-                    <li class="calculator__table-item">Пропишем тег '<link rel="canonical">'</li>
-                    <li class="calculator__table-item">Создадим XML-карту сайта</li>
+            <div class="promotion-table">
+                <h3 class="promotion-table__title">План продвижения на 3 месяца</h3>
+                <ul class="promotion-table__itmes">
+                    <li class="promotion-table__item-title">1 мес.</li>
+                    <li class="promotion-table__item">Общий аудит сайта</li>
+                    <li class="promotion-table__item">Создание резервной копии сайта</li>
+                    <li class="promotion-table__item">Поиск и устранение дублей сайта</li>
+                    <li class="promotion-table__item">Поиск и удаление битых ссылок</li>
+                    <li class="promotion-table__item">Пропишем тег '<link rel="canonical">'</li>
+                    <li class="promotion-table__item">Создадим XML-карту сайта</li>
                 </ul>
-                <ul class="calculator__table-itmes">
-                    <li class="calculator__table-item-title">1 мес.</li>
-                    <li class="calculator__table-item">Общий аудит сайта</li>
-                    <li class="calculator__table-item">Создание резервной копии сайта</li>
-                    <li class="calculator__table-item">Поиск и устранение дублей сайта</li>
-                    <li class="calculator__table-item">Поиск и удаление битых ссылок</li>
-                    <li class="calculator__table-item">Пропишем тег '<link rel="canonical">'</li>
+                <ul class="promotion-table__itmes">
+                    <li class="promotion-table__item-title">1 мес.</li>
+                    <li class="promotion-table__item">Общий аудит сайта</li>
+                    <li class="promotion-table__item">Создание резервной копии сайта</li>
+                    <li class="promotion-table__item">Поиск и устранение дублей сайта</li>
+                    <li class="promotion-table__item">Поиск и удаление битых ссылок</li>
+                    <li class="promotion-table__item">Пропишем тег '<link rel="canonical">'</li>
                     <!-- <li class="calculator__table-item">Создадим XML-карту сайта</li> -->
                 </ul>
-                <ul class="calculator__table-itmes">
-                    <li class="calculator__table-item-title">1 мес.</li>
-                    <li class="calculator__table-item">Общий аудит сайта</li>
-                    <li class="calculator__table-item">Создание резервной копии сайта</li>
-                    <li class="calculator__table-item">Поиск и устранение дублей сайта</li>
-                    <li class="calculator__table-item">Поиск и удаление битых ссылок</li>
+                <ul class="promotion-table__itmes">
+                    <li class="promotion-table__item-title">1 мес.</li>
+                    <li class="promotion-table__item">Общий аудит сайта</li>
+                    <li class="promotion-table__item">Создание резервной копии сайта</li>
+                    <li class="promotion-table__item">Поиск и устранение дублей сайта</li>
+                    <li class="promotion-table__item">Поиск и удаление битых ссылок</li>
                     <!-- <li class="calculator__table-item">Пропишем тег '<link rel="canonical">'</li>
                     <li class="calculator__table-item">Создадим XML-карту сайта</li> -->
                 </ul>

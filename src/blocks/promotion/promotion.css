@@ -1,9 +1,11 @@
+@import url('../button/button.css');
 @import url('../section-title/section-title.css');
 @import url('./__title/promotion__title.css');
 @import url('./__title-img/promotion__title-img.css');
 @import url('../selection-elements/selection-elements.css');
 @import url('../calculator/calculator.css');
 @import url('../section-title-level-2/section-title-level-2.css');
+@import url('../promotion-table/promotion-table.css');
 
 .promotion {
     padding-top: 80px;

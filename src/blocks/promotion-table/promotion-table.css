@@ -1,0 +1,10 @@
+@import url('../__title/promotion-table__title.css');
+.promotion-table {
+    padding-top: 45px;
+    padding-right: 71px;
+    padding-left: 71px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
