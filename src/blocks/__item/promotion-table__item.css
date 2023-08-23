@@ -1,0 +1,22 @@
+.promotion-table__item {
+    position: relative;
+    width: 234px;
+    color: #333;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+}
+.promotion-table__item::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #ff0404;
+    top: 8px;
+    left: -18px;
+}

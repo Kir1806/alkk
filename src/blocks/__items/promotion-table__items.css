@@ -1,0 +1,19 @@
+
+
+.promotion-table__items {
+    /* border: 1px solid red; */
+    position: relative;
+}
+.promotion-table__items::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 335px;
+    border-radius: 20px;
+    background: #F0EDEA;
+    left: -40px;
+
+}
+.promotion-table__items:nth-child(2)::before {
+    display: none;
+}

@@ -1,0 +1,11 @@
+.promotion-table__item-title {
+    color: #333;
+    text-align: center;
+    font-family: 'Fira Sans Extra Condensed';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 22px */
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}

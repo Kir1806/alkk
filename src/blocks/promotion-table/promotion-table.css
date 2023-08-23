@@ -1,10 +1,13 @@
 @import url('../__title/promotion-table__title.css');
+@import url('../__items/promotion-table__items.css');
+@import url('../__item/promotion-table__item.css');
+@import url('../__item-title/promotion-table__item-title.css');
+
 .promotion-table {
-    padding-top: 45px;
-    padding-right: 71px;
-    padding-left: 71px;
+    padding: 45px 71px 45px 82px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border: 1px solid red;
 }
