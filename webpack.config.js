@@ -40,7 +40,8 @@ module.exports = {
     output: {
         filename: 'scripts/[name].[contenthash].js', // '[chunkhash].[id].chunk.js', //'[name].[chunkhash].js', //'bundle.js',
         path: path.resolve(__dirname, 'dist'),
-        clean: true, //очищать dist перед повторным npm run build
+        // clean: true, //очищать dist перед повторным npm run build
+        clean: process.env.NODE_ENV === "production", //возможное решение с пропаданием картинок при работе dev servera webpacka
         assetModuleFilename: 'assets/images/[name].[contenthash].[ext]', //если название папки с картинками другое, не забудьте поменять
         environment: {
             arrowFunction: false,
@@ -70,7 +71,7 @@ module.exports = {
             },
             {
                 test: /\.(png|jpg|gif|svg)$/i,
-                type: 'asset/resource'
+                type: 'asset/resource'//resource
             },
             {
                 test: /\.js$/,
