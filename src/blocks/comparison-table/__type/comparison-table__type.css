@@ -1,0 +1,10 @@
+.comparison-table__type {
+    color: #333;
+    font-family: 'Fira Sans Extra Condensed';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+    text-transform: uppercase;
+    margin-left: 40px;    
+}

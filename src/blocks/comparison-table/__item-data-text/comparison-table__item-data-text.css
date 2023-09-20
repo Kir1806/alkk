@@ -1,0 +1,10 @@
+.comparison-table__item-data-text {
+    color: #333;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+    border: 1px solid red;
+}

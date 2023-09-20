@@ -1,0 +1,7 @@
+.comparison-table__types {
+    width: 111%;
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+}

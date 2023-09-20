@@ -1,4 +1,11 @@
-@import url('./__items/.comparison-table__items.css');
+@import url('./__items/comparison-table__items.css');
+@import url('./__types/comparison-table__types.css');
+@import url('./__type/comparison-table__type.css');
+@import url('./__title/comparison-table__title.css');
+@import url('./__item-data-text/comparison-table__item-data-text.css');
+@import url('../section-title-level-4/section-title-level-4.css');
+@import url('./__item-data-title/comparison-table__item-data-title.css');
+
 
 .comparison-table {
     width: 100%;
