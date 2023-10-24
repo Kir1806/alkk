@@ -1,0 +1,10 @@
+.application__input-item {
+    width: 314px;
+    height: 50px;
+    padding-left: 19px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+}

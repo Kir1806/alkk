@@ -1,0 +1,7 @@
+.application__button {
+    grid-area: 2 / 2 / 3 / 3;
+    /* color: #fff; */
+    /* background-color: #ff0404 ; */
+    width: 314px;
+    font-weight: 600;
+}
