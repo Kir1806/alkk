@@ -1,0 +1,11 @@
+@import url('./__item/site-portfolio-items__item.css');
+@import url('./__item-links/site-portfolio-items__item-links.css');
+@import url('./__item-title/site-portfolio-items__item-title.css');
+@import url('./__item-link-sign/site-portfolio-items__item-link-sign.css');
+
+.site-portfolio-items {
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}

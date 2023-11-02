@@ -1,0 +1,11 @@
+.site-portfolio-items__item-title {
+    width: 119px;    
+    color: #333;
+    font-family: 'Fira Sans Extra Condensed';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 20px */
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
