@@ -3,7 +3,6 @@
     display: flex;
     width: 650px;
     flex-wrap: wrap;
-    flex-direction: row;
-    border: 1px solid red;
+    flex-direction: row;    
     gap: 20px;
 }
