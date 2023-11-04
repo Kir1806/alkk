@@ -1,5 +1,26 @@
 .application__checkbox {
     grid-area: 1 / 2 / 2 / 3; 
     display: flex;
-    align-items: center;
+    align-items: center;       
+}
+
+.application__checkbox input[type="checkbox"]:checked + label:before, 
+.application__checkbox input[type="checkbox"]:not(:checked) + label:before {
+  top: 7px;
+  border: 1px solid #999; /*цвет рамки*/
+  background-color: transparent;
+  opacity: 0.5; 
+}
+
+.application__checkbox input[type="checkbox"]:checked + label:after, 
+.application__checkbox input[type="checkbox"]:not(:checked) + label:after {
+  top: 10px;
+}
+.application__checkbox input[type="checkbox"]:not(:checked) + label:hover:after {
+    opacity: 0.9;
+    border-color: #949596;
+}
+.application__checkbox  input[type="checkbox"]:checked + label, 
+.application__checkbox input[type="checkbox"]:not(:checked) + label {
+    padding-left: 40px; /* отступ надписи*/
 }
