@@ -1,0 +1,19 @@
+.rates-items__item {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background: #93E7FF;
+    padding-top: 40px;
+    padding-bottom: 21px;
+}
+.rates-items__item:nth-child(2) {
+    background: #FFD773;
+}
+.rates-items__item:nth-child(3) {
+    background: #A3A3FF;
+}
+.rates-items__item:nth-child(4) {
+    background: #D1CAFF;
+}

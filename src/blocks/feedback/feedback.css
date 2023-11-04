@@ -1,0 +1,6 @@
+@import url('../feedback-items/feedback-items.css');
+
+.feedback {       
+    width: 100%;
+    padding: 80px 0;
+}

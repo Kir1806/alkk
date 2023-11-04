@@ -1,0 +1,12 @@
+@import url('./__item/rates-items__item.css');
+@import url('./__item-title/rates-items__item-title.css');
+@import url('./__item-img/rates-items__item-img.css');
+@import url('./__item-text/rates-items__item-text.css');
+@import url('./__item-price/rates-items__item-price.css');
+
+.rates-items {
+    display: flex;
+    justify-content: space-between;
+    width: 68%;
+    margin: auto;
+}

@@ -1,0 +1,9 @@
+@import url('./__title/rates__title.css');
+@import url('../rates-items/rates-items.css');
+
+.rates {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 76px;
+    background: linear-gradient(0deg, #F5F7F9 0%, #F5F7F9 100%), #ECE8E5;
+}

@@ -1,0 +1,8 @@
+@import url('./__title/site-portfolio__title.css');
+@import url('../site-portfolio-items/site-portfolio-items.css');
+
+.site-portfolio {
+    width: 100%;
+    padding-top: 85px;
+    padding-bottom: 80px;
+}
