@@ -34,7 +34,8 @@ module.exports = {
     plugins,
     devtool,
     entry: {
-        main: './src/scripts/index.js'
+        main: './src/scripts/index.js',
+        website: './src/website.html'
     },
 
     output: {
@@ -104,6 +105,11 @@ module.exports = {
             // inject: false,
             template: 'src/index.html',
             filename: 'index.html'
+        }),
+        new HtmlWebpackPlugin({
+            // inject: false,
+            template: 'src/website.html',
+            filename: 'website.html'
         }),
 
         new MiniCssExtractPlugin({filename: 'styles/[name].[contenthash].css'})        
