@@ -7,4 +7,23 @@
     border-radius: 5px;
     border: 1px solid #FFF;
     background-color: transparent;
+    color: #FFF;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.9;
+}
+.application__input-item::placeholder {
+    color: #FFF;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.9;
+}
+.application__input-item:focus {
+    opacity: 0.35;
 }
