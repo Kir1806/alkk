@@ -35,7 +35,7 @@ module.exports = {
     devtool,
     entry: {
         main: './src/scripts/index.js',
-        website: './src/website.html'
+        website: './src/scripts/website.js'
     },
 
     output: {
