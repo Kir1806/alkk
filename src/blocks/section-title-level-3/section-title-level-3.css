@@ -1,0 +1,9 @@
+.section-title-level-3 {
+    color: #333;
+    font-family: 'Fira Sans Extra Condensed';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 45px */
+    text-transform: uppercase;
+}

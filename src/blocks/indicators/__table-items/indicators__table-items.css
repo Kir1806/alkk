@@ -1,0 +1,5 @@
+.indicators__table-items {
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,11 @@
+@import url('../section-title-level-3/section-title-level-3.css');
+@import url('./__table-items/indicators__table-items.css');
+@import url('./__table-item/indicators__table-item.css');
+@import url('./__table-title/indicators__table-title.css');
+@import url('./__table-text/indicators__table-text.css');
+
+.indicators {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
