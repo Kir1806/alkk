@@ -35,7 +35,8 @@ module.exports = {
     devtool,
     entry: {
         main: './src/scripts/index.js',
-        website: './src/scripts/website.js'
+        website: './src/scripts/website.js',
+        promote: './src/scripts/promote.js'
     },
 
     output: {
@@ -110,6 +111,11 @@ module.exports = {
             // inject: false,
             template: 'src/website.html',
             filename: 'website.html'
+        }),
+        new HtmlWebpackPlugin({
+            // inject: false,
+            template: 'src/promote.html',
+            filename: 'promote.html'
         }),
 
         new MiniCssExtractPlugin({filename: 'styles/[name].[contenthash].css'})        
