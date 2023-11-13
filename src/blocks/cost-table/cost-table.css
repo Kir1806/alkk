@@ -1,0 +1,19 @@
+@import url('./__cell/cost-table-cell.css');
+@import url('./__title-row/cost-table__title-row.css');
+
+.cost-table {
+    width: 68%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(12, auto);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.cost-table>div {
+    border: 1px solid red;
+    height: 50px;
+}   
+
+
+    

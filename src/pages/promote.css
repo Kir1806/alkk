@@ -1,6 +1,9 @@
 @import url('../vendor/font.css');
 
 @import url('../blocks/header/header.css');
+@import url('../blocks/header-promote/header-promote.css');
+
+@import url('../blocks/cost/cost.css');
 
 
 @import url('../blocks/application-form/application-form.css');
