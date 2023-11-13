@@ -3,9 +3,12 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/header-website/header-website.css');
 @import url('../blocks/indicators/indicators.css');
-
-
-
+@import url('../blocks/application-form/application-form.css');
+@import url('../blocks/feedback/feedback.css');
+@import url('../blocks/rates/rates.css');
+@import url('../blocks/comparison/comparison.css');
+@import url('../blocks/comparison-table/comparison-table.css');
+@import url('../blocks/site-portfolio/site-portfolio.css');
 
 @import url('../blocks/footer/footer.css');
 
