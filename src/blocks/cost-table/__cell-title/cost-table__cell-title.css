@@ -1,0 +1,13 @@
+.cost-table__cell-title {    
+    padding-bottom: 10px;
+    display: flex;
+    align-items: end;
+
+    color: #333;
+    font-family: 'Fira Sans Extra Condensed';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 22px */
+    text-transform: uppercase;
+}

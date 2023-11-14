@@ -1,19 +1,19 @@
 @import url('./__cell/cost-table-cell.css');
 @import url('./__title-row/cost-table__title-row.css');
+@import url('./__cell-title/cost-table__cell-title.css');
+@import url('./__cell-note/cost-table__cell-note.css');
+@import url('./__cell-text/cost-table__cell-text.css');
 
 .cost-table {
     width: 68%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: 50% 50%;
+    /* grid-template-columns: repeat(2, auto); */
     grid-template-rows: repeat(12, auto);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
-.cost-table>div {
-    border: 1px solid red;
-    height: 50px;
-}   
 
 
     

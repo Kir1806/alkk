@@ -3,25 +3,103 @@
     border-radius: 5px;
     background: linear-gradient(0deg, #FFD773 0%, #FFD773 100%), #F4F7FE;
     padding: 8px 0;
+    margin-bottom: 12px;
 }
 .cost-table-cell2 { grid-area: 2 / 1 / 3 / 2; }
-.cost-table-cell3 { grid-area: 3 / 1 / 4 / 2; }
-.cost-table-cell4 { grid-area: 2 / 2 / 4 / 3; }
+.cost-table-cell3 { 
+    grid-area: 3 / 1 / 4 / 2;
+    border-bottom: 1px solid #EAECEF;
+}
+.cost-table-cell4 { 
+    grid-area: 2 / 2 / 4 / 3;
+    border-bottom: 1px solid #EAECEF;    
+    position: relative;
+}
+.cost-table-cell4::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 21px;
+    width: 1px;
+    background-color: #EAECEF;
+}
+ 
 .cost-table-cell5 { grid-area: 4 / 1 / 5 / 2; }
-.cost-table-cell6 { grid-area: 5 / 1 / 6 / 2; }
-.cost-table-cell7 { grid-area: 4 / 2 / 6 / 3; }
+.cost-table-cell6 {
+    grid-area: 5 / 1 / 6 / 2;
+    border-bottom: 1px solid #EAECEF;
+}
+.cost-table-cell7 { 
+    grid-area: 4 / 2 / 6 / 3; 
+    border-bottom: 1px solid #EAECEF;
+    position: relative;
+}
+.cost-table-cell7::after {
+    content: '';
+    position: absolute;
+    top: 35%;
+    left: 0;
+    height: 21px;
+    width: 1px;
+    background-color: #EAECEF;
+}
 .cost-table-cell8 { grid-area: 6 / 1 / 7 / 2; }
 .cost-table-cell9 { grid-area: 7 / 1 / 8 / 2; }
-.cost-table-cell10 { grid-area: 6 / 2 / 8 / 3; }
+.cost-table-cell10 { 
+    grid-area: 6 / 2 / 8 / 3; 
+    position: relative;
+}
+.cost-table-cell10::after {
+    content: '';
+    position: absolute;
+    top: 36%;
+    left: 0;
+    height: 21px;
+    width: 1px;
+    background-color: #EAECEF;
+}
 .cost-table-cell11 {
     grid-area: 8 / 1 / 9 / 3;
     border-radius: 5px;
     padding: 8px 0;
     background: linear-gradient(0deg, #77CBFA 0%, #77CBFA 100%), #F4F7FE;
+
+    margin-top: 11px;
 }
 .cost-table-cell12 { grid-area: 9 / 1 / 10 / 2; }
-.cost-table-cell13 { grid-area: 10 / 1 / 11 / 2; }
-.cost-table-cell14 { grid-area: 9 / 2 / 11 / 3; }
+.cost-table-cell13 { 
+    grid-area: 10 / 1 / 11 / 2;
+    border-bottom: 1px solid #EAECEF; 
+}
+
+.cost-table-cell14 { 
+    grid-area: 9 / 2 / 11 / 3; 
+    border-bottom: 1px solid #EAECEF;
+    position: relative;
+}
+.cost-table-cell14::after {
+    content: '';
+    position: absolute;
+    top: 36%;
+    left: 0;
+    height: 21px;
+    width: 1px;
+    background-color: #EAECEF;
+}
 .cost-table-cell15 { grid-area: 11 / 1 / 12 / 2; }
 .cost-table-cell16 { grid-area: 12 / 1 / 13 / 2; }
-.cost-table-cell17 { grid-area: 11 / 2 / 13 / 3; }
+.cost-table-cell17 { 
+    grid-area: 11 / 2 / 13 / 3; 
+    position: relative;
+}
+
+.cost-table-cell17::after {
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 0;
+    height: 21px;
+    width: 1px;
+    background-color: #EAECEF;
+}
