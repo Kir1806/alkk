@@ -1,0 +1,8 @@
+.info-text__item-text {
+    color: #333;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 23.2px */
+}

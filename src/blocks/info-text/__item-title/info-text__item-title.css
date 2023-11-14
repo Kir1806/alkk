@@ -1,0 +1,10 @@
+.info-text__item-title {
+    color: #333;
+    font-family: 'Fira Sans Extra Condensed';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 30px */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}

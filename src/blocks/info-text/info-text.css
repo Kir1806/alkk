@@ -1,0 +1,13 @@
+@import url('./__title/info-text__title.css');
+@import url('./__items/info-text__items.css');
+@import url('./__item/info-text__item.css');
+@import url('./__item-title/info-text__item-title.css');
+@import url('./__item-text/info-text__item-text.css');
+
+.info-text {
+    width: 100%;
+    padding-top: 85px;
+    padding-bottom: 80px;
+    background: linear-gradient(0deg, #F5F7F9 0%, #F5F7F9 100%), #ECE8E5;
+    
+}
