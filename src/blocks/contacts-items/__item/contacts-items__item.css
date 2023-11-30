@@ -1,0 +1,7 @@
+.contacts-items__item {
+    width: 499px;
+    padding: 30px 27px 29px 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+}

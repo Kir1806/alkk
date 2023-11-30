@@ -1,0 +1,38 @@
+@import url('../vendor/font.css');
+
+@import url('../blocks/header/header.css');
+
+@import url('../blocks/contacts/contacts.css');
+
+
+@import url('../blocks/footer/footer.css');
+
+:root {
+    --light-text-primary: #272727;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+.container {
+    width: 68%;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

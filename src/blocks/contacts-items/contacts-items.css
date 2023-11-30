@@ -1,0 +1,12 @@
+@import url('./__item/contacts-items__item.css');
+@import url('./__item-icon/contacts-items__item-icon.css');
+@import url('./__item-container/contacts-items__item-container.css');
+@import url('./__item-title/contacts-items__item-title.css');
+@import url('./__item-adress/contacts-items__item-adress.css');
+
+.contacts-items {
+    width: 72%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;    
+}
