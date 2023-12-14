@@ -1,5 +1,57 @@
 .menu__logo {
-    margin-left: 130px;
+    margin-left: clamp(0px, 130px, 9%);
     margin-top: 14px;
     margin-bottom: 14px;
 }
+
+@media screen and (max-width: 1440px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+    .menu__logo {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+
+@media screen and (max-width: 320px) {
+    
+}
+
+/* @media screen and (min-width: 320px) {
+
+} 
+
+@media screen and (min-width: 480px) {
+    .menu__logo {
+        margin-left: 10px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+}
+@media screen and (min-width: 800px) {
+    .menu__logo {
+        margin-left: clamp(0px, 130px, 9%);
+        margin-top: 14px;
+        margin-bottom: 14px;
+    }
+
+
+}
+
+@media screen and (min-width: 1440px) {
+
+
+} */

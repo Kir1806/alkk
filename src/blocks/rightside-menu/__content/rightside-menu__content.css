@@ -1,0 +1,5 @@
+.rightside-menu__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

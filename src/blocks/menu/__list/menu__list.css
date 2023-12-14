@@ -6,3 +6,23 @@
     margin-top: 18px;
     margin-bottom: 18px;
 }
+
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) {    
+    .menu__list {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {    
+}

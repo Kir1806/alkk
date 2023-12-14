@@ -1,0 +1,6 @@
+.rightside-menu__item {
+    margin-bottom: 20px;
+}
+.rightside-menu__item:last-child {
+    margin-bottom: 40px;
+}

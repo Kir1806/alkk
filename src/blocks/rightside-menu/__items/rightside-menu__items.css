@@ -1,0 +1,15 @@
+.rightside-menu__items {
+    /* padding-bottom: 20px; */
+    
+    
+}
+
+.rightside-menu__items::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 1px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, .1);
+}

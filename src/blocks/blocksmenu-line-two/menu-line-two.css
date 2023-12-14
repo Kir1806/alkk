@@ -6,3 +6,24 @@
    background-color: #333333;
    padding: 8px 0;
 }
+
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) { 
+   .menu-line-two {
+      display: none;
+
+   }   
+}
+
+@media screen and (max-width: 320px) {    
+}

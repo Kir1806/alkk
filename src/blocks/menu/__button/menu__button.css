@@ -1,0 +1,28 @@
+.menu__button {
+    display: none;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) {  
+    .menu__button {
+        display: block;
+        margin-right: 20px;
+        margin-left: auto;
+
+    }  
+}
+
+@media screen and (max-width: 320px) {    
+}

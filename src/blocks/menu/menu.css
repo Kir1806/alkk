@@ -5,6 +5,29 @@
 @import url('./__contacts-phone/menu__contacts-phone.css');
 @import url('./__link/menu__link.css');
 @import url('./__contacts-logo/menu__contacts-logo.css');
+@import url('./__button/menu__button.css');
+@import url('../rightside-menu/rightside-menu.css');
+
+
 .menu {
-    display: flex;    
+    display: flex;
+    position: relative;
+    border: 1px solid red;
+}
+
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) {    
+}
+
+@media screen and (max-width: 320px) {    
 }

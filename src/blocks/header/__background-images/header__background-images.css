@@ -1,4 +1,28 @@
 .header__background-images {
     width: 100%;
-    height: 358px;
+    /* height: clamp(156px, 100%, 358px); */
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    .header__background-images {
+        height: 156px;        
+    }    
+}
+
+@media screen and (max-width: 480px) {
+    .header__background-images {
+        height: 120px;        
+    }   
+}
+
+@media screen and (max-width: 320px) {    
+
 }

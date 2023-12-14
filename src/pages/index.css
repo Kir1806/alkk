@@ -42,3 +42,25 @@ a {
     text-decoration: none;
 }
 
+
+.main-header {
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) {    
+}
+
+@media screen and (max-width: 320px) {    
+}

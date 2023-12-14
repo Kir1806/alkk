@@ -1,0 +1,48 @@
+@import url('./__header/rightside-menu__header.css');
+@import url('./__header-button/rightside-menu__header-button.css');
+
+@import url('./__content/rightside-menu__content.css');
+@import url('./__items/rightside-menu__items.css');
+@import url('./__item/rightside-menu__item.css');
+@import url('./__item-link/rightside-menu__item-link.css');
+@import url('./__list/rightside-menu__list.css');
+@import url('./__list-item/rightside-menu__list-item.css');
+@import url('./__list-item-link/rightside-menu__list-item-link.css');
+@import url('./__contacts/rightside-menu__contacts.css');
+@import url('./__contacts-phone/rightside-menu__contacts-phone.css');
+
+
+.rightside-menu {    
+    display: block;
+    position: absolute;    
+}
+.rightside-menu--close {
+    display: none;
+}
+
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+    .rightside-menu {         
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        z-index: 10;        
+        padding-bottom: 36px;
+
+    }
+        
+}
+
+@media screen and (max-width: 320px) {    
+}

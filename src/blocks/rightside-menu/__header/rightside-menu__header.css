@@ -1,0 +1,6 @@
+.rightside-menu__header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}

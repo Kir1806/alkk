@@ -1,0 +1,9 @@
+.rightside-menu__item-link {
+    color: #FFF;
+    font-family: 'Fira Sans Extra Condensed';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 30px */
+    text-transform: uppercase;
+}
