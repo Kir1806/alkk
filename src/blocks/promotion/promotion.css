@@ -1,10 +1,10 @@
 @import url('../button/button.css');
 @import url('../section-title/section-title.css');
+@import url('../section-title-level-2/section-title-level-2.css');
 @import url('./__title/promotion__title.css');
 @import url('./__title-img/promotion__title-img.css');
 @import url('../selection-elements/selection-elements.css');
 @import url('../calculator/calculator.css');
-@import url('../section-title-level-2/section-title-level-2.css');
 @import url('../promotion-table/promotion-table.css');
 
 .promotion {
@@ -12,4 +12,25 @@
     background-color: #ECE8E5;
     margin-top: -5px;
     padding-bottom: 80px;
+}
+
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    .promotion {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {    
+}
+
+@media screen and (max-width: 320px) {    
 }

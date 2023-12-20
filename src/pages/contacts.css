@@ -36,3 +36,23 @@ li {
 a {
     text-decoration: none;
 }
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {    
+}
+
+@media screen and (max-width: 320px) {    
+}

@@ -20,3 +20,22 @@
     top: 8px;
     left: -18px;
 }
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    .promotion-table__item {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {    
+}
+
+@media screen and (max-width: 320px) {    
+}

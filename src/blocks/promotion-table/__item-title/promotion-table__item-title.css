@@ -9,3 +9,21 @@
     text-transform: uppercase;
     margin-bottom: 23px;
 }
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    .promotion-table__item-title {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {    
+}
+
+@media screen and (max-width: 320px) {    
+}

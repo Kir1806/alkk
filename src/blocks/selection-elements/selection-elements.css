@@ -8,3 +8,26 @@
     margin-bottom: 30px;
     margin: 0px 47px 40px 47px;
 }
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    .selection-elements {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {    
+    .selection-elements {
+        margin-left: 19px;
+        margin-right: 19px;
+    }
+}
+
+@media screen and (max-width: 320px) {    
+}

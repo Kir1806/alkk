@@ -3,3 +3,23 @@
     height: 61px;
     vertical-align: bottom;
 }
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) {    
+    .promotion__title-img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 320px) {    
+}

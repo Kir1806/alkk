@@ -17,3 +17,29 @@
 .promotion-table__items:nth-child(2)::before {
     display: none;
 }
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    .promotion-table__items {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .promotion-table__items::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+    }
+}
+@media screen and (max-width: 480px) {    
+}
+
+@media screen and (max-width: 320px) {    
+}

@@ -4,3 +4,20 @@
     margin-left: auto;
     padding-top: 10px;
 }
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+.selection-elements__checkbox {
+    margin-left: 0;
+}
+}
+
+@media screen and (max-width: 480px) {    
+}
+
+@media screen and (max-width: 320px) {    
+}

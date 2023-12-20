@@ -1,3 +1,24 @@
 .calculator__title {
     padding-bottom: 36px;
 }
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+
+    
+}
+
+@media screen and (max-width: 480px) {
+    .calculator__title {
+        font-size: 35px;
+        padding-bottom: 30px;
+    } 
+}
+
+@media screen and (max-width: 320px) {    
+}
