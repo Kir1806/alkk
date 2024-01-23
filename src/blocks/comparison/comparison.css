@@ -4,4 +4,25 @@
 
 .comparison {
     padding-top: 80px;
+    /* width: 100%; */
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+    .comparison {
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {    
+}
+
+@media screen and (max-width: 320px) {    
 }
