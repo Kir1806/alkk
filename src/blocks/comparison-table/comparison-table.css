@@ -6,6 +6,7 @@
 @import url('../section-title-level-4/section-title-level-4.css');
 @import url('./__item-data-title/comparison-table__item-data-title.css'); */
 @import url('./__button/.comparisson-table__button.css');
+@import url('./__mobile/comparison-table__mobile.css');
 
 
 .comparison-table {
@@ -291,7 +292,10 @@
   
   }
   
-  @media screen and (max-width: 480px) {    
+  @media screen and (max-width: 480px) {
+    .comparison-table__display {
+      display: none;
+    } 
   }
   
   @media screen and (max-width: 320px) {    
