@@ -3,3 +3,24 @@
     height: 40px;
     padding: 7px 27px 8px 27px;
 }
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 800px) {
+    .comparisson-table__button {
+        width: 80px;
+        padding: 7px 8px 8px 8px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {    
+}
+
+@media screen and (max-width: 320px) {    
+}
